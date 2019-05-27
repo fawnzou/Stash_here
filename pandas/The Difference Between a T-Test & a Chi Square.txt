@@ -1,0 +1,19 @@
+The Difference Between a T-Test & a Chi Square
+
+Both t-tests and chi-square tests are statistical tests, designed to test, and possibly reject, a null hypothesis. The null hypothesis is usually a statement that something is zero, or that something does not exist. For example, you could test the hypothesis that the difference between two means is zero, or you could test the hypothesis that there is no relationship between two variables.
+
+Null Hypothesis Tested
+A t-test tests a null hypothesis about two means; most often, it tests the hypothesis that two means are equal, or that the difference between them is zero. For example, we could test whether boys and girls in fourth grade have the same average height.
+
+A chi-square test tests a null hypothesis about the relationship between two variables. For example, you could test the hypothesis that men and women are equally likely to vote "Democratic," "Republican," "Other" or "not at all."
+
+Types of Data
+A t-test requires two variables; one must be categorical and have exactly two levels, and the other must be quantitative and be estimable by a mean. For example, the two groups could be Republicans and Democrats, and the quantitative variable could be age.
+
+A chi-square test requires categorical variables, usually only two, but each may have any number of levels. For example, the variables could be ethnic group — White, Black, Asian, American Indian/Alaskan native, Native Hawaiian/Pacific Islander, other, multiracial; and presidential choice in 2008 — (Obama, McCain, other, did not vote).
+
+Variations
+There are variations of the t-test to cover paired data; for example, husbands and wives, or right and left eyes. There are variations of the chi-square to deal with ordinal data — that is, data that has an order, such as "none," "a little," "some," "a lot" — and to deal with more than two variables.
+
+Conclusions
+The t-test allows you to say either "we can reject the null hypothesis of equal means at the 0.05 level" or "we have insufficient evidence to reject the null of equal means at the 0.05 level." A chi-square test allows you to say either "we can reject the null hypothesis of no relationship at the 0.05 level" or "we have insufficient evidence to reject the null at the 0.05 level."

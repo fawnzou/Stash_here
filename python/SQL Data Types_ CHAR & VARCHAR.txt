@@ -1,0 +1,21 @@
+In SQL programming, two of the most common data types you will come across are CHAR and VARCHAR. In this lesson, we will review the differences between the two types, seeing how each is designed for different types of data.
+
+Naming Data Types in SQL
+When you establish a place in SQL for data to be stored, you have to tell the database what type of data to expect there. From dates and times to numbers of many different types, a lot of different data styles can be stored in SQL. As you might expect, text can also be stored in SQL. Two of the most useful data types for storing information in SQL are CHAR and VARCHAR. These data types represent characters and variable characters, respectively. We're going to take a look at the differences between the two, as well as when each would be ideal for use.
+
+CHAR
+The CHAR command lets you store a string of characters that have a defined length. The characters can be numbers, letters, spaces, or even special characters. However, you have to have precisely the number of characters mentioned in the right place. For example, if you state that your data will have 6 characters using the CHAR command, then every bit of data must have six characters. To use the command to specify a set of data, it would look something like this:
+
+
+college_code CHAR(6);
+
+In that instance, whatever code is applied to the college in question would be six characters long. Therefore, if you were writing about a place with a name that was only 4 characters long, you'd have to come up with two more letters, often Xs.
+
+The specificity of CHAR makes it useful for codes and pin numbers. While we can't be sure about how a bank's record stores your PIN number, chances are that it is done using something like CHAR.
+
+Also, as we saw above, CHAR is perfect when using specific codes that have been assigned about data. State abbreviations, such as VA or CT, are also useful when using CHAR. They won't accept data that is any different from those parameters.
+
+Varchar
+Varchar, on the other hand, only sets a maximun lenth for the data entered.Like earlier, that data can be just about any types of character, but can cannot go over the maximum provided. Here's how we'd code a category of "college name' using varchar.
+
+college_name VARCHAR(30)

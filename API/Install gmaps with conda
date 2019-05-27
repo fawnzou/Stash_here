@@ -1,0 +1,15 @@
+Installation¶
+Installing jupyter-gmaps with conda
+The easiest way to install gmaps is with conda:
+
+$ conda install -c conda-forge gmaps
+Installing jupyter-gmaps with pip
+Make sure that you have enabled ipywidgets widgets extensions:
+
+$ jupyter nbextension enable --py --sys-prefix widgetsnbextension
+You can then install gmaps with:
+
+$ pip install gmaps
+Then tell Jupyter to load the extension with:
+
+$ jupyter nbextension enable --py --sys-prefix gmaps
