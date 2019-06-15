@@ -1,0 +1,45 @@
+All the command operate in Anacoda Prompt
+
+# part 1(Anacoda)**
+1. Create a github repository
+git add .
+git commit -m""
+git push
+
+part 2
+1. heroku create belly-button-project2019
+(Name must start with a letter, end with a letter or digit and can only contain lowercase letters, digits, and
+ !    dashes.
+)
+
+2. git remote -v
+
+
+3.Create conda environment
+$ conda create -n belly_button_biodiversity_ens python-3.7
+
+4. activate this environment(check all conda environments`conda info --envs`)
+activate belly_button_env
+
+5. `pip freeze` to check all the module in this environments
+
+6. python app.py (run app.py to make sure all the modules we needed installed, install all the modules and run`ptyhon app.py` again till we get result)
+
+part 3:
+1. git add -A
+2. git commit -m "setup basic server"
+3. git push origin master(github master)
+4. git push heroku master
+
+part 4: output "pip freeze' to requirements.txt
+1. pip freeze > requirements.txt
+1. git add -A
+2. git commit -m "added requirements.txt"
+
+part 5:
+heroku open
+heroku logs(check errors)
+1. heruko logs(check error)
+2. heruko 
+
+
