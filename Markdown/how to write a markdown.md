@@ -26,6 +26,8 @@ or
 
 use an _underscore_ to get the same results.
 
+Useful linker: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
 You can even use these same characters to emphasize complete sentences.
 
 Links
@@ -60,3 +62,5 @@ Images are easy
 
 Resources
 If you're editing content in a Jekyll-based site, you can use the prose editor, if your site is configured for it. If you want more advanced formatting, check out the original Markdown site, or the Github Markdown page.
+
+
